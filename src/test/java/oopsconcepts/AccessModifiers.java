@@ -1,23 +1,24 @@
 package oopsconcepts;
-class Parent{  
-private void msgprivate(){// private method to class Parent
-	System.out.println("Hello this is the private access modifier of class Parent!");
+//This is a program for Access Modifiers for oops concepts
+class Banking{  
+private void account(){// private method to class Banking
+	System.out.println("Your account number is: "+ 12345);
 } 
-protected void msgprotected(){//protected member to Class Parent
-	System.out.println("Hello this is the protected access modifier of class Parent!");
+protected void customer(){//protected member to Class Banking
+	System.out.println("Hello customer your bank balance is: "+ 50555);
 }  
-void msgdefault(){ //default method
-	System.out.println("Hello this is the default access modifier of class Parent!");}  
+void customeracc(){ //default method
+	System.out.println("Hello dear customer to our banking services!!");}  
 } 
-public class AccessModifiers extends Parent {
+public class AccessModifiers extends Banking {
 	private void printing(int x ) { // private method to class AcessModifiers i.e. the derived class
-		System.out.println("The value of x in Private is : "+ x);
+		System.out.println("Hello Krittika");
 	}
 	public static void main(String[] args) {
-		AccessModifiers obj = new AccessModifiers();
-		obj.printing(100);
-		obj.msgprotected();
-		obj.msgdefault();
+		AccessModifiers obj = new AccessModifiers();//creating object of class
+		obj.printing(100); //calling functions of classes
+		obj.customer();
+		obj.customeracc();
 	}
 
 }

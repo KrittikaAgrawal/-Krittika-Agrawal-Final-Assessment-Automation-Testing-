@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-06T17:09:05Z" name="Default suite" finished-at="2022-10-06T17:09:19Z" duration-ms="14485">
+  <suite started-at="2022-10-10T04:35:07Z" name="Default suite" finished-at="2022-10-10T04:35:20Z" duration-ms="13572">
     <groups>
     </groups>
-    <test started-at="2022-10-06T17:09:05Z" name="Default test" finished-at="2022-10-06T17:09:19Z" duration-ms="14485">
-      <class name="testngframework.MethodOverloadingSearch">
-        <test-method signature="loginsearch()[pri:0, instance:testngframework.MethodOverloadingSearch@4e423aa2]" started-at="2022-10-06T17:09:05Z" name="loginsearch" finished-at="2022-10-06T17:09:19Z" duration-ms="14466" status="PASS">
+    <test started-at="2022-10-10T04:35:07Z" name="Default test" finished-at="2022-10-10T04:35:20Z" duration-ms="13572">
+      <class name="testngframework.ApplyLeave">
+        <test-method signature="hrmleave()[pri:0, instance:testngframework.ApplyLeave@4e423aa2]" started-at="2022-10-10T04:35:07Z" name="hrmleave" finished-at="2022-10-10T04:35:20Z" duration-ms="13558" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginsearch -->
-      </class> <!-- testngframework.MethodOverloadingSearch -->
+        </test-method> <!-- hrmleave -->
+      </class> <!-- testngframework.ApplyLeave -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

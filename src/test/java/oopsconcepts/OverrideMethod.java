@@ -1,22 +1,23 @@
 package oopsconcepts;
-class Animal{
-	void printing() {
-		System.out.println(" This is the Grandfather Class!!");
+//This is a program for Method Overriding for oops concepts
+class Medical{
+	void printing() { //printing method overriding
+		System.out.println(" This is the Medical Policy!!");
 }
 }
-class Animal1 extends Animal{
-	void printing() {
-		super.printing();
-		System.out.println(" This is the Father Class!!");
+class Claim extends Medical{ //child class of Medical
+	void printing() { //printing method overriding
+		super.printing(); //super keyword used to access overriding method
+		System.out.println(" The claim made is : 50000. ");
 }
 }
-public class OverrideMethod extends Animal1{
-	void printing() {
-		super.printing();
-		System.out.println(" This is the Child Class!!");
+public class OverrideMethod extends Claim{ //child class of Claim
+	void printing() { //printing method overriding
+		super.printing();//super keyword used to access overriding method
+		System.out.println(" Thanks for registering!");
 	}
 	public static void main(String[] args) {
-		OverrideMethod obj = new OverrideMethod();
-		obj.printing();
+		OverrideMethod obj = new OverrideMethod();//creating object of class
+		obj.printing(); //calling printing function
 	}
 }
